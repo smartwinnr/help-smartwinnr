@@ -30,6 +30,7 @@
         <div class="library-tile text-center">
           {{ with .Params.icon }}<h2><i class="fa fa-{{ . }}"></i></h2>{{ end }}
           <h2 class="tile-title">{{ with .Params.title_short }}{{ . }}{{ else }}{{ .Title }}{{ end }}</h2>
+          <p class="tile-description">{{with .Params.description}}{{ . }}{{ end }}</p>
         </div>
       </a>
     </div>
