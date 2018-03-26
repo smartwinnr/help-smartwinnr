@@ -4,13 +4,13 @@ author:
   email: smartwinnr@mobillionlabs.com
 description: 'This quick answer shows how to create CAA records for domains and subdomains.'
 og_description: 'This quick answer will show you how to create a CAA record for domains and subdomains'
-keywords: ["dashboard", "dns", "records", "subdomain", "domain"]
+keywords: ["home", "dns", "records", "subdomain", "domain"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 modified: 2017-11-03
 modified_by:
   name: SmartWinnr
 published: 2017-11-03
-title: Dashboard
+title: Home
 weight: 10
 external_resources:
  - '[CAA Records, DNSimple](https://support.dnsimple.com/articles/caa-record/)'
@@ -20,7 +20,7 @@ external_resources:
 Certification Authority Authorization (CAA) is a type of DNS record that allows the owner of a domain to specify which certificate authority (or authorities) are allowed to issue SSL/TLS certificates for their domain(s). This quick answer shows you how to set up CAA records on your Linode.
 
 
-## Dashboard
+## What is home?
 
 1.  This is an overview of almost every thing SmartWinnr offers.
 
