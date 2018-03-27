@@ -24,27 +24,27 @@ Team Progress Report shows the whole team `Completion Rate`, `Total Score`,	`Per
 ![My Image](/images/my-gallery.jpg)
 </span>
 
-#### Search
-Team Progress Report comes with search. Click on `Search` bar -> Type in `Name` Or `Email` Or `Country`
+## Search
+Team Progress Report comes with search. Click on {{< show-link "Search" "Type in Name Or Email Or Country" >}}
 
 <span class="my-gallery">
 ![My Image](/images/my-gallery.jpg)
 </span>
 
-#### View Analytics
-Click on `View Analytics` button -> `Analytics` page will open
+## View Analytics
+Click on {{< show-link "View Analytics" "Analytics" >}} page will open
 
 <span class="my-gallery">
 ![My Image](/images/my-gallery.jpg)
 </span>
 
-#### Save As Image
-To download `analytics`. Click on `Save As Image` button
+## Save As Image
+To download `Analytics` Click on `Save As Image` button
 
-#### Date Range
+## Date Range
 Team Progress Report comes with a date range. To filter based on date.
 
-Click on `Date Range` -> Select from `Dropdown` list -> Click on `Apply` button
+Click on {{< show-link "Date Range" "Select from Dropdown list" "Click on Apply button" >}}
 
 <span class="my-gallery">
 ![My Image](/images/my-gallery.jpg)

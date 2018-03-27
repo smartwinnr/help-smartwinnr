@@ -21574,7 +21574,7 @@ blockquote > div > div.btn-copy > .copy-code {
 }
 /******************** SmartWInnr styles *******************************/
 html, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, p {
-  font-family: "pn-light", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: 'pn-light', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
 }
 .purple-background {background-color: #4841CE !important;}
 .white-font {color: #fff !important; opacity: 0.87 !important}
@@ -21605,25 +21605,26 @@ body {
   }
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: 'pn-light', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
   font-weight: 400;
-  margin-top: 0;
+  margin-top: 0 !important;
 }
 h1 {
   font-family: 'pn-light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 32px;
+  font-size: 34px !important;
 }
 h2 {
-  font-size: 22px;
+  font-family: 'pn-light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 26px !important;
+  font-weight: normal;
 }
 h3 {
-  font-family: 'pn-semibold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-family: 'pn-light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 20px !important;
 }
 h4 {
-  font-family: 'pn-semibold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  text-transform: uppercase;
+  font-family: 'pn-light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px !important;
 }
 a {
   color: #423dce;
@@ -21631,6 +21632,13 @@ a {
 }
 a:hover, a:active, a:focus {
   text-decoration: underline;
+}
+p {
+    font-weight: 400;
+    font-size: 15px;
+    /* font-size: 1.08rem; */
+    line-height: 1.5;
+    margin: 0 0 20px;
 }
 .ml-blocks-list {
   display: flex;
@@ -21685,14 +21693,14 @@ a:hover, a:active, a:focus {
 .ml-blocks-item-title {
   color: #2e2e2e;
   font-family: 'pn-light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 14pt;
+  font-size: 14px;
   margin-bottom: 0;
 }
 .ml-blocks-item-description {
   color: #4841CE;
   font-weight: 300;
   font-size: 10pt;
-  margin: 10px;
+  margin: 10px !important;
 }
 .ml-blocks-item-description:not(:empty) {
   margin-top: 10px;
@@ -21780,7 +21788,7 @@ ul {
 .ml-article-list-item {
   border-bottom: 1px solid #ddd;
   font-size: 16px;
-  padding: 10px 0;
+  padding: 15px 0;
 }
 .ml-article-list-item a {
   color: #2e2e2e;
@@ -21788,4 +21796,24 @@ ul {
 .ml-article-list-item :hover {
   text-decoration: underline;
   color: #4841CE;
+}
+.ml-article-list-link {
+  margin-bottom: 5px;
+}
+.ml-article-body {
+  font-family: 'pn-light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+.ml-doc-title {
+  font-family: 'pn-light', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+  margin-top: 0 !important;
+  margin-bottom: 20px !important;
+  font-size: 34px !important;
+}
+/* for show-link shortcode */
+.ml-show-link {
+  color: #4841CE !important;
+  padding: 10px !important;
+  border-radius: 5px !important;
+  background-color: #e5e7ea !important;
 }

@@ -35,10 +35,10 @@
         {{ $pages := $pages | intersect (where .Pages ".Params.shortguide" "!=" true) }}
         {{ $total_articles := (len $pages)}}
         {{ range first 5 $pages }}
-        <li class="ml-article-list-item"><h3 class="ml-article-list-link"><a href="{{ .Permalink }}">{{ .Title }}{{ if .Params.has_video }}&nbsp;<i class="fa fa-youtube-play"></i>{{ end }}</a></h3></li>
+        <li class="ml-article-list-item"><h4 class="ml-article-list-link"><a href="{{ .Permalink }}">{{ .Title }}{{ if .Params.has_video }}&nbsp;<i class="fa fa-youtube-play"></i>{{ end }}</a></h4></li>
         {{ end }}
       </ul>
-      {{if gt $total_articles 5}}<a href="{{ .Permalink }}" class="ml-see-all-articles">See More Articles</a>{{ end }}
+      {{if gt $total_articles 5}}<h4 class="ml-see-all-articles"><a href="{{ .Permalink }}">See All {{ $total_articles }} Articles</a></h4>{{ end }}
     </section>
     {{ end }}
     {{ end }}

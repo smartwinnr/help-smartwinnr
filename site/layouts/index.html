@@ -29,7 +29,7 @@
   <li class="ml-blocks-item">
     <a href="{{ .Permalink }}" class="ml-blocks-item-link">
       {{ with .Params.icon }}<h2><i class="fa fa-{{ . }}"></i></h2>{{ end }}
-      <h2 class="ml-blocks-item-title">{{ with .Params.title_short }}{{ . }}{{ else }}{{ .Title }}{{ end }}</h2>
+      <h1 class="ml-blocks-item-title">{{ with .Params.title_short }}{{ . }}{{ else }}{{ .Title }}{{ end }}</h1>
       <h6 class="ml-blocks-item-description">{{with .Params.description}}{{ . }}{{ end }}</h6>
     </a>
   </li>

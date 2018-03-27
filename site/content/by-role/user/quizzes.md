@@ -17,34 +17,57 @@ external_resources:
  - '[RFC 6844: DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844)'
 ---
 
-Certification Authority Authorization (CAA) is a type of DNS record that allows the owner of a domain to specify which certificate authority (or authorities) are allowed to issue SSL/TLS certificates for their domain(s). This quick answer shows you how to set up CAA records on your Linode.
+## How to start a quiz?
 
+Tap on {{< show-link "Left Menu" "Quizzes" >}} to see the list of assigned quizzes. You can start a quiz by simply tapping on it.
 
-## Quizzes
+## Start a Quiz
+Please follow the steps in article start a quiz. Tap the `Start Button` to start answering the questions.
 
-1.  This is an overview of almost every thing SmartWinnr offers.
+<span class="my-gallery">
+![My image](/images/my-image.jpg)
+</span>
 
-2.  Select the domain you want to add the record to, or add a domain if you don't already have one listed.
+## Quiz  Answer Questions
+When you start answering the questions in a quiz, the screen will show the title of the quiz on top, the question number of the current question and then the question.
 
-3.  Under the **CAA Records** section, select **Add a new CAA record**.
+Tap on `Next Question` to go to next question after you have completed answering the current question. Please note that its mandatory to answer a question before moving to the next question. When you have reached the last question in a quiz, the `Next Question` button will automatically change to `Submit` button. Tap on that button to submit the quiz.
 
-4.  Here's an explanation of the form fields:
+<span class="my-gallery">
+![My image](/images/my-image.jpg)
+</span>
 
-    **Subdomain**: This field indicates the domain or subdomain you want the CAA record to cover. To apply it to your entire website (`example.com`), you can just leave this field blank. To limit the record's application to a subdomain on your site, (`subdomain.example.com`), enter that into the form field.
+## Quiz Scoreboard
+Once you complete taking a quiz, the app will automatically take you to the `Scoreboard` screen. This screen will show
 
-    **Tag**:
++ Your percentage score on this quiz,
++ With number of correct answers and number of incorrect answers,
++ Your net score on this quiz.
++ It will also show any badge that you might have received and the quiz Leaderboard.
++ The quiz Leaderboard is a relative ranking based on the scores of all the people who have already taken this quiz.
 
-     -  *issue* - Authorize the certificate authority entered in the *Value* field further below to issue TLS certificates for your site.
+Tap on the `Review Answers` button at the top right corner to see the answers in this quiz.
 
-     -  *issuewild* - Same as above, with the exception that you were issued a wildcard certificate.
+<span class="my-gallery">
+![My image](/images/my-image.jpg)
+</span>
 
-     -  *iodef* - URL where your CA can report security policy violations to you concerning certificate issue requests.
+## Completed Quiz  Review Answers
+###### Review `All Answers`
 
-    **Value**: If the *issue* or *issuewild* tag was selected above, then the value field takes the domain of your certificate issuer (for example: `letsencrypt.org`). If the *iodef* tag was selected, the value field takes a contact or submission URL (`http` or `mailto`).
++ You can review all the questions in a quiz from this tab
++ You can choose to review only the questions that you have got correct.
++ You can choose to review only the questions that you have got incorrect. In every question, the answer option in `yellow` is the option that you had chosen. The `green tick-mark` icon shows the answer option that is correct.
 
-    **TTL (Time to Live)**: Time in seconds that your new CAA record will be cached by Linode's DNS name servers before being refreshed. The *Default* selection's TTL is 300 seconds, which is fine for most cases. You can use `dig` to view the remaining time your DNS records will be cached until refreshed. Replace *linode.com* with your site's domain or subdomain in the command below:
+<span class="my-gallery">
+![My image](/images/my-image.jpg)
+</span>
 
-        root@debian:~# dig +nocmd +noall +answer example.com
-        example.com.     167 IN  A   203.0.113.1
+## Completed Quizzes
+Tap on {{< show-link "Left Menu" "Quizzes" "Select Completed Quizzes" >}}
 
-5.  Select **Save Changes** when finished. The CAA record should be fully propagated within the TTL duration.
+This screen will show the list of quizzes that you have already completed. For each quiz, you will be able to see your score and you can tap on it to see the scoreboard and review the answers.
+
+<span class="my-gallery">
+![My image](/images/my-image.jpg)
+</span>
