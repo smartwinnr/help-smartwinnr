@@ -22,7 +22,7 @@
             {{ partial "operating_systems" . }}
             {{ partial "deprecated" . }}
             {{ .Content }}
-            {{ partial "more" . }}
+            {{/* partial "more" . */}}
             {{/* partial "related" . */}}
             {{ if and (getenv "HUGO_ENV") (ne .Params.comments false) }}
             {{ partial "disqus" . }}

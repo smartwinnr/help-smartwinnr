@@ -17,34 +17,91 @@ external_resources:
  - '[RFC 6844: DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844)'
 ---
 
-Certification Authority Authorization (CAA) is a type of DNS record that allows the owner of a domain to specify which certificate authority (or authorities) are allowed to issue SSL/TLS certificates for their domain(s). This quick answer shows you how to set up CAA records on your Linode.
+## How to view all surveys?
+`View all` surveys will show all the surveys
 
+Click on {{< show-link "Surveys" "View All Surveys" "Survey page will open" >}}
 
-## Surveys
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1516100883723.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
 
-1.  This is an overview of almost every thing SmartWinnr offers.
+## Analytics
+Click on {{< show-link "Surveys" "View all Surveys" "Survey page will open" "Analytics" >}}
 
-2.  Select the domain you want to add the record to, or add a domain if you don't already have one listed.
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1516101352865.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
 
-3.  Under the **CAA Records** section, select **Add a new CAA record**.
+## Create Survey
+You can create surveys through `Smartwinnr`.
 
-4.  Here's an explanation of the form fields:
+Goto {{< show-link "Surveys" "Create Surveys" >}}
 
-    **Subdomain**: This field indicates the domain or subdomain you want the CAA record to cover. To apply it to your entire website (`example.com`), you can just leave this field blank. To limit the record's application to a subdomain on your site, (`subdomain.example.com`), enter that into the form field.
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512648520726.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
 
-    **Tag**:
+Add the title and description of the survey. The form will also ask you to add the 1st question in the survey. Then click on `Save New Survey`. It will create a new survey with one question. You can add more questions to the survey by clicking on `Add More Question` button.
 
-     -  *issue* - Authorize the certificate authority entered in the *Value* field further below to issue TLS certificates for your site.
+## Assign Survey
+Once a survey is created with questions, send the survey to people who can take it. Click on `Assign` button at the top right corner. It will open the Assign screen. Use search criteria to select and choose the users. Click on `Send to Selected People`.
 
-     -  *issuewild* - Same as above, with the exception that you were issued a wildcard certificate.
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512648651905.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
 
-     -  *iodef* - URL where your CA can report security policy violations to you concerning certificate issue requests.
+On success, a success `notification` will show:
 
-    **Value**: If the *issue* or *issuewild* tag was selected above, then the value field takes the domain of your certificate issuer (for example: `letsencrypt.org`). If the *iodef* tag was selected, the value field takes a contact or submission URL (`http` or `mailto`).
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512648746824.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
 
-    **TTL (Time to Live)**: Time in seconds that your new CAA record will be cached by Linode's DNS name servers before being refreshed. The *Default* selection's TTL is 300 seconds, which is fine for most cases. You can use `dig` to view the remaining time your DNS records will be cached until refreshed. Replace *linode.com* with your site's domain or subdomain in the command below:
+## Survey Question Types
+There are 4 Questions Types that are available in surveys.
 
-        root@debian:~# dig +nocmd +noall +answer example.com
-        example.com.     167 IN  A   203.0.113.1
+#### Linear Scale
+Use this question type when you have to provide a **linear scale**. You can change the range of linear scale
 
-5.  Select **Save Changes** when finished. The CAA record should be fully propagated within the TTL duration.
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512649122816.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
+
+#### Single Select
+Use the question type **Single Select** when you need to add a question where the user can select only one answer.
+
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512649212449.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
+
+#### Multiple Select
+Use the question type **Multiple Select** when you need to add a question where the user can select multiple answers.
+
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512649359767.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
+
+#### Short Answer
+Use the question type **Short Answer** when you need to add a question where the user can write text.
+
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512649599265.png">
+![""](/images/my-image.jpg)
+</a>
+</span>

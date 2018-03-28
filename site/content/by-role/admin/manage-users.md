@@ -17,34 +17,177 @@ external_resources:
  - '[RFC 6844: DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844)'
 ---
 
-Certification Authority Authorization (CAA) is a type of DNS record that allows the owner of a domain to specify which certificate authority (or authorities) are allowed to issue SSL/TLS certificates for their domain(s). This quick answer shows you how to set up CAA records on your Linode.
+## How to manage users?
+Manage Users is for user administration. It shows the list of users.
 
+#### Edit Users
+If you want to change any information of a user.
 
-## Manage Users
+Click on {{< show-link "User" "Edit" >}}
 
-1.  This is an overview of almost every thing SmartWinnr offers.
+<span class="my-gallery">
+<a href="https://s3-us-west-2.amazonaws.com/qzapp.resource/5774b038e11b0d0822c0ec0c/question_image5774b038e11b0d0822c0ec0c_1516094116806.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
 
-2.  Select the domain you want to add the record to, or add a domain if you don't already have one listed.
+##### Assign Reporting Manager Identifier
+To assign reporting manager.
+Click on {{< show-link "Assign" "Pop-up window will appear" "Manager" >}}
 
-3.  Under the **CAA Records** section, select **Add a new CAA record**.
+<span class="my-gallery">
+<a href="https://s3-us-west-2.amazonaws.com/qzapp.resource/5774b038e11b0d0822c0ec0c/question_image5774b038e11b0d0822c0ec0c_1516094332861.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
 
-4.  Here's an explanation of the form fields:
+If the reporting manager is assigned.
+Click on {{< show-link "Change" "Pop-up window will appear" "Manager" >}}
 
-    **Subdomain**: This field indicates the domain or subdomain you want the CAA record to cover. To apply it to your entire website (`example.com`), you can just leave this field blank. To limit the record's application to a subdomain on your site, (`subdomain.example.com`), enter that into the form field.
+<span class="my-gallery">
+<a href="https://s3-us-west-2.amazonaws.com/qzapp.resource/5774b038e11b0d0822c0ec0c/question_image5774b038e11b0d0822c0ec0c_1516094405681.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
 
-    **Tag**:
+#### Search
+Click on {{< show-link "Business Unit All" "Dropdown will appear" >}}
 
-     -  *issue* - Authorize the certificate authority entered in the *Value* field further below to issue TLS certificates for your site.
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512715247768.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
 
-     -  *issuewild* - Same as above, with the exception that you were issued a wildcard certificate.
+Manage users come with the search. Click on {{< show-link "Advanced Search" "Window will appear" "Type in the fields to search" "Search" >}}
 
-     -  *iodef* - URL where your CA can report security policy violations to you concerning certificate issue requests.
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512715543865.png">![""](/images/my-image.jpg)
+</a>
+</span>
 
-    **Value**: If the *issue* or *issuewild* tag was selected above, then the value field takes the domain of your certificate issuer (for example: `letsencrypt.org`). If the *iodef* tag was selected, the value field takes a contact or submission URL (`http` or `mailto`).
+##### Filter User
+Filter User is to filter by
 
-    **TTL (Time to Live)**: Time in seconds that your new CAA record will be cached by Linode's DNS name servers before being refreshed. The *Default* selection's TTL is 300 seconds, which is fine for most cases. You can use `dig` to view the remaining time your DNS records will be cached until refreshed. Replace *linode.com* with your site's domain or subdomain in the command below:
++ **Active** : Users which are active
++ **Pending** : Users have registered but verification is pending.
++ **Deactive** : Users completed with registration but not active.
 
-        root@debian:~# dig +nocmd +noall +answer example.com
-        example.com.     167 IN  A   203.0.113.1
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512715667275.png">![""](/images/my-image.jpg)
+</a>
+</span>
 
-5.  Select **Save Changes** when finished. The CAA record should be fully propagated within the TTL duration.
+##### Meta Tag
+Meta tag is the type which depends on the organization. It varies depending on the type of the organization. In this organization, can be searched by
+
++ Temporary
++ Permanent
+
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512715873152.png">![""](/images/my-image.jpg)
+</a>
+</span>
+
+#### Add User
+Add User is to add new user. Click on {{< show-link "Add user" "Form will appear" "Type in the details" "Create User" >}}
+
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512715949068.png">![""](/images/my-image.jpg)
+</a>
+</span>
+
+##### Assign Reporting Manager Identifier
+Click on {{< show-link "Assign" "Pop-up Window will appear" "Manager" >}}
+
+<span class="my-gallery">
+<a href="https://s3-us-west-2.amazonaws.com/qzapp.resource/5774b038e11b0d0822c0ec0c/question_image5774b038e11b0d0822c0ec0c_1516089498358.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
+
+Click on `Select` button
+
+<span class="my-gallery">
+<a href="https://s3-us-west-2.amazonaws.com/qzapp.resource/5774b038e11b0d0822c0ec0c/question_image5774b038e11b0d0822c0ec0c_1513336769841.png">![""](/images/my-image.jpg)
+</a>
+</span>
+
+##### Organization Units
+The new users have more than one Business Units in the country.
+
+Click on {{< show-link "Add" "New field will appear" >}}
+
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512716248508.png">![""](/images/my-image.jpg)
+</a>
+</span>
+
+{{< show-link "Organization units" "Delete" >}}
+
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512716396991.png">![""](/images/my-image.jpg)
+</a>
+</span>
+
+#### Add Users in Bulk
+Add too many users at one time. Click on {{< show-link "Add Users in Bulk" "New window will appear" >}}
+
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512716554763.png">![""](/images/my-image.jpg)
+</a>
+</span>
+
+New window for add users in bulk. Click on {{< show-link "Add User Mapping" "Type the details" "Create" >}}
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512716703864.png">![""](/images/my-image.jpg)
+</a>
+</span>
+
+Choose the file in `CSV` format of the users. Click on the `Upload` button
+
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1516179894903.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
+
+#### Bulk User Actions
+Bulk User Action is to add action to users.You can filter by
+
++ ** Deactivate Selected Users ** : Admin can select user to deactivate from active or pending state
++ ** Resend Invitation ** :  Resend Invitation is sent to the user is in pending state. A mail is sent with the new link
++ ** Activate Selected Users ** : Activate Selected Users is to activate users from a deactive or pending state. This will send welcome message to the user
++ ** Deactivate Pending ** : Deactivate Pending to deactivate any users
+
+1 Click on {{< show-link "Menu icon" "Dropdown will appear" "Bulk User Actions" "New Window will appear" >}}
+
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512716858896.png">![""](/images/my-image.jpg)
+</a>
+</span>
+
+2 Select the users. Click on `Apply action` button.
+
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512716979633.png">![""](/images/my-image.jpg)
+</a>
+</span>
+
+### User Details
+User details shows the details of the users by `status` and `roles`.
+
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512717045342.png">![""](/images/my-image.jpg)
+</a>
+</span>
+
+#### Change Password
+Admin can change the password of the user.
+
+Click on {{< show-link "Change Password" "Pop-up window will appear" "Type in the details" "Reset" >}}
+
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512717153528.png">![""](/images/my-image.jpg)
+</a>
+</span>

@@ -17,34 +17,77 @@ external_resources:
  - '[RFC 6844: DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844)'
 ---
 
-Certification Authority Authorization (CAA) is a type of DNS record that allows the owner of a domain to specify which certificate authority (or authorities) are allowed to issue SSL/TLS certificates for their domain(s). This quick answer shows you how to set up CAA records on your Linode.
-
-
 ## Competitions
+You can now create Competitions with Smartwinnr. Create different teams and run a competition amongst them that runs across several months. Add `multiple quizzes` to a competition. The team scores in the Competition gets put up on the `leaderboard`. There can be multiple leaderboards for a Competition. You can also add team mascots for every team.
 
-1.  This is an overview of almost every thing SmartWinnr offers.
+## How can I create a competition?
+#### Create New Competition
+If you have the privilege to create Competitions, you will see the link `Competitions` under the Editor section of your left menu. Click on `Create Competitions` to create a `new competition`.
 
-2.  Select the domain you want to add the record to, or add a domain if you don't already have one listed.
+#### Add Name, Description, and Dates
+Give a catchy name to your competition and add a description. Every competition has to have a start and end date. Click on `Save`.
 
-3.  Under the **CAA Records** section, select **Add a new CAA record**.
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512649916000.png">
+![My Iamge](/images/my-image.jpg)
+</a>
+</span>
 
-4.  Here's an explanation of the form fields:
+#### Add Quizzes to a Competition
+The next step is to add `quizzes` to a `competition`.
 
-    **Subdomain**: This field indicates the domain or subdomain you want the CAA record to cover. To apply it to your entire website (`example.com`), you can just leave this field blank. To limit the record's application to a subdomain on your site, (`subdomain.example.com`), enter that into the form field.
+Follow the steps to create a new quiz from Section `Create New Quiz`. You will see a new section called `Quiz Competitions`.
+Click on the `Add` button to add this quiz to a competition. You can also add an existing Quiz to a competition.  
 
-    **Tag**:
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512650042524.png">
+![My Iamge](/images/my-image.jpg)
+</a>
+</span>
 
-     -  *issue* - Authorize the certificate authority entered in the *Value* field further below to issue TLS certificates for your site.
+This will add the Quiz to the `competition`:
 
-     -  *issuewild* - Same as above, with the exception that you were issued a wildcard certificate.
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512650125448.png">
+![My Iamge](/images/my-image.jpg)
+</a>
+</span>
 
-     -  *iodef* - URL where your CA can report security policy violations to you concerning certificate issue requests.
+#### Add Teams to the Competition
+Next, you can add multiple teams to this Competition. Select the different teams. These teams would need to be pre-defined within Smartwinnr in the form of Groups. Click on the button `Add More Leaderboards` to add more teams who would be participating in this competition.
 
-    **Value**: If the *issue* or *issuewild* tag was selected above, then the value field takes the domain of your certificate issuer (for example: `letsencrypt.org`). If the *iodef* tag was selected, the value field takes a contact or submission URL (`http` or `mailto`).
+Once you have added all the teams, click on `Save` button to save.
 
-    **TTL (Time to Live)**: Time in seconds that your new CAA record will be cached by Linode's DNS name servers before being refreshed. The *Default* selection's TTL is 300 seconds, which is fine for most cases. You can use `dig` to view the remaining time your DNS records will be cached until refreshed. Replace *linode.com* with your site's domain or subdomain in the command below:
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512650216864.png">
+![My Iamge](/images/my-image.jpg)
+</a>
+</span>
 
-        root@debian:~# dig +nocmd +noall +answer example.com
-        example.com.     167 IN  A   203.0.113.1
+#### Multiple Leaderboards in a Competition
 
-5.  Select **Save Changes** when finished. The CAA record should be fully propagated within the TTL duration.
+There can be multiple leaderboards in a Competition.
+
+**Individual Leaderboard** – This leaderboard gets created by default. It shows the relative rankings of all individuals from all teams who are participating in this competition. It takes into account the actual score of every individual.
+
+**Team-wise Leaderboard** – There can also be team-wise leaderboards
+
+## How to edit competition?
+#### Edit Competition
+
+The editor who has created the competition can edit and make changes to the competition. If you want to give permission to someone else within your division to make changes to the competition, you can do so.
+
+Go to {{< show-link "List Competitions" "Select the Competition" "Click on the Edit button in the top right corner of the page" "Click on the Can Be Edited By button" >}}
+
+Search and select the person to whom you want to give the access to edit this competition. Click on `Save` button.
+
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512650362493.png">
+![My Image](/images/my-image.jpg)
+</a>
+</span>
+
+## How to control the visibility of a competition?
+#### Visibility of a Competition
+
+A competition is visible to all editors from your division.

@@ -18,7 +18,7 @@ external_resources:
 ---
 
 ## How to take a survey?
-Go To `Left Menu` -> `Surveys`
+Go To {{< show-link "Left Menu" "Surveys" >}}
 
 This screen will show all the surveys that require your input. Tap on a survey, to start answering the questions in the survey.
 

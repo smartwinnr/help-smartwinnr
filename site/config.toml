@@ -59,3 +59,6 @@ weight = 100
 name  = "date"
 weight = 10
 pattern = "2006"
+
+# Google Roboto fonts
+# googlefonts = "//fonts.googleapis.com/css?family=Roboto:400"

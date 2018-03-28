@@ -17,34 +17,199 @@ external_resources:
  - '[RFC 6844: DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844)'
 ---
 
-Certification Authority Authorization (CAA) is a type of DNS record that allows the owner of a domain to specify which certificate authority (or authorities) are allowed to issue SSL/TLS certificates for their domain(s). This quick answer shows you how to set up CAA records on your Linode.
+# Smartfeeds
+## How to create a Smartfeed?
+### Create Smartfeed
+Create Smartfeed is to create article related to product or country. Go to `Create New Smartfeed`
 
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512642753771.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
 
-## Smartfeeds
+##### Select Division
+Select division is the type for which the document should be made. Click on Select `Division`
 
-1.  This is an overview of almost every thing SmartWinnr offers.
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512642877952.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
 
-2.  Select the domain you want to add the record to, or add a domain if you don't already have one listed.
+##### Change Language
+Change Language is to change the language for the smartfeed.
 
-3.  Under the **CAA Records** section, select **Add a new CAA record**.
+Click on {{< show-link "Change Language" "Pop-up Window" "Select Language" "Save" >}}
 
-4.  Here's an explanation of the form fields:
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512642986731.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
 
-    **Subdomain**: This field indicates the domain or subdomain you want the CAA record to cover. To apply it to your entire website (`example.com`), you can just leave this field blank. To limit the record's application to a subdomain on your site, (`subdomain.example.com`), enter that into the form field.
+#### SmartFeed
+Type in the information and choose the related document. Click on `Choose file` button
 
-    **Tag**:
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512643239591.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
 
-     -  *issue* - Authorize the certificate authority entered in the *Value* field further below to issue TLS certificates for your site.
+Smartfeed Title and smartfeed are required field. If details are not type in it will show warning
 
-     -  *issuewild* - Same as above, with the exception that you were issued a wildcard certificate.
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512643352037.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
 
-     -  *iodef* - URL where your CA can report security policy violations to you concerning certificate issue requests.
+Select on `Knowledge`
 
-    **Value**: If the *issue* or *issuewild* tag was selected above, then the value field takes the domain of your certificate issuer (for example: `letsencrypt.org`). If the *iodef* tag was selected, the value field takes a contact or submission URL (`http` or `mailto`).
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512643409589.png">
+![""](/images/my-image.jpg/images/my-image.jpg)
+</a>
+</span>
 
-    **TTL (Time to Live)**: Time in seconds that your new CAA record will be cached by Linode's DNS name servers before being refreshed. The *Default* selection's TTL is 300 seconds, which is fine for most cases. You can use `dig` to view the remaining time your DNS records will be cached until refreshed. Replace *linode.com* with your site's domain or subdomain in the command below:
+Select on `Product`
 
-        root@debian:~# dig +nocmd +noall +answer example.com
-        example.com.     167 IN  A   203.0.113.1
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512643483522.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
 
-5.  Select **Save Changes** when finished. The CAA record should be fully propagated within the TTL duration.
+Select on `Selling Skills`
+
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512643558326.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
+
+## How to view all Smartfeeds?
+### Smartfeed
+Smartfeed is information about product. Analysis of the product done and the information is sent to the users.
+
+#### View all Smartfeeds
+All smartfeeds will be displayed here. you can filter smartfeeds by
+
++ **Sales** : Sales information related to Company or industry or Product
++ **Finance** : Finance that is the budget information about the company or product
++ **Transport**: Transport related information
++ **Agriculture**: Agriculture related information
+
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512643850448.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
+
+Click on Select `smartfeed`
+
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512643976421.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
+
+Click on Select `Tags`
+
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512644053518.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
+
+##### Search
+Smartfeed comes with search. Click on {{< show-link "Search" "Type in Smartfeed title" "Search" >}}
+
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512644112210.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
+
+Click -> **PDF** button
+
+Information can be sent in pdf format. Click on `PDF` button -> `Pop-up` window -> Click on `Send` button
+
+##### Edit
+Smartfeed is editable.
+
+Click on {{< show-link "PDF button" "Pop-up window" "Edit" "Send" >}}  
+
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512644282597.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
+##### Select categories
+Select categories can be done by selecting `Knowledge`, `Product` and `selling Skill`.
+
+{{< show-link "Knowledge" "Product" "Selling skills" "Update" >}}
+
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512644509006.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
+Select `Knowledge`
+
+Information related to **company**, **industry** or **competitors**
+
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512644627637.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
+Select `Product`
+
+Information related to the product like **type**, **quality**
+
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512644684998.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
+
+Select `Selling Skill`
+
+Sales related data  about the product related to particular `company` or `industry` or `competitors`.
+
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512644845681.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
+
+## What is Smartfeed Analytics?
+### Smartfeed Analytics
+Smartfeed Analytics is smartfeed viewed by number of users. To change the number of views.
+
+Click on {{< show-link "Dropdown" "Select from the list" >}}
+
+<span class="my-gallery">
+<a href="https://s3-us-west-2.amazonaws.com/qzapp.resource/5774b038e11b0d0822c0ec0c/question_image5774b038e11b0d0822c0ec0c_1513340563233.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
+
+#### Search
+Type in the {{< show-link "Smartfeed name" "Click Search" >}}
+
+<span class="my-gallery">
+<a href="https://s3-us-west-2.amazonaws.com/qzapp.resource/5774b038e11b0d0822c0ec0c/question_image5774b038e11b0d0822c0ec0c_1513340602722.png">
+![""](/images/my-image.jpg)
+</a>
+</span>
+#### Save As Image
+To download the smartfeed. Click on `Save As Image` button
+
+<span class="my-gallery">
+<a href="https://s3-us-west-2.amazonaws.com/qzapp.resource/5774b038e11b0d0822c0ec0c/question_image5774b038e11b0d0822c0ec0c_1513340641254.png">
+![""](/images/my-image.jpg)
+</a>
+</span>

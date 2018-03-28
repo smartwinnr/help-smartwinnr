@@ -17,34 +17,35 @@ external_resources:
  - '[RFC 6844: DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844)'
 ---
 
-Certification Authority Authorization (CAA) is a type of DNS record that allows the owner of a domain to specify which certificate authority (or authorities) are allowed to issue SSL/TLS certificates for their domain(s). This quick answer shows you how to set up CAA records on your Linode.
+## How to set permissions?
+Permission sets are to assign permission to the users.
 
+#### Search
+Permission sets come with the search. Click on {{< show-link "Search" "Type in Permission sets name" >}}
 
-## Manage Permissions
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512724695286.png">![""](/images/my-image.jpg)
+</a>
+</span>
 
-1.  This is an overview of almost every thing SmartWinnr offers.
+### Add Permission Set
+To add permission set. Click on {{< show-link "Add permission Set" "Type in the details" "Role" "Divisions" "Sub Divisions" "Save" >}}
 
-2.  Select the domain you want to add the record to, or add a domain if you don't already have one listed.
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512724813416.png">![""](/images/my-image.jpg)
+</a>
+</span>
 
-3.  Under the **CAA Records** section, select **Add a new CAA record**.
+Select `Divisions`
 
-4.  Here's an explanation of the form fields:
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512724874606.png">![""](/images/my-image.jpg)
+</a>
+</span>
 
-    **Subdomain**: This field indicates the domain or subdomain you want the CAA record to cover. To apply it to your entire website (`example.com`), you can just leave this field blank. To limit the record's application to a subdomain on your site, (`subdomain.example.com`), enter that into the form field.
+Select `Sub Divisions`
 
-    **Tag**:
-
-     -  *issue* - Authorize the certificate authority entered in the *Value* field further below to issue TLS certificates for your site.
-
-     -  *issuewild* - Same as above, with the exception that you were issued a wildcard certificate.
-
-     -  *iodef* - URL where your CA can report security policy violations to you concerning certificate issue requests.
-
-    **Value**: If the *issue* or *issuewild* tag was selected above, then the value field takes the domain of your certificate issuer (for example: `letsencrypt.org`). If the *iodef* tag was selected, the value field takes a contact or submission URL (`http` or `mailto`).
-
-    **TTL (Time to Live)**: Time in seconds that your new CAA record will be cached by Linode's DNS name servers before being refreshed. The *Default* selection's TTL is 300 seconds, which is fine for most cases. You can use `dig` to view the remaining time your DNS records will be cached until refreshed. Replace *linode.com* with your site's domain or subdomain in the command below:
-
-        root@debian:~# dig +nocmd +noall +answer example.com
-        example.com.     167 IN  A   203.0.113.1
-
-5.  Select **Save Changes** when finished. The CAA record should be fully propagated within the TTL duration.
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512724924137.png">![""](/images/my-image.jpg)
+</a>
+</span>

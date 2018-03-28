@@ -17,34 +17,75 @@ external_resources:
  - '[RFC 6844: DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844)'
 ---
 
-Certification Authority Authorization (CAA) is a type of DNS record that allows the owner of a domain to specify which certificate authority (or authorities) are allowed to issue SSL/TLS certificates for their domain(s). This quick answer shows you how to set up CAA records on your Linode.
+## How can I Manage Configuration for Quiz?
+Points received per correct answers will be displayed. To change, type in the changes.
 
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512722850415.png">![""](/images/my-image.jpg)
+</a>
+</span>
 
-## Quiz Settings
+#### Quiz Badge Setting
+Quiz Badge changes depending on the threshold. Badges are three types:
 
-1.  This is an overview of almost every thing SmartWinnr offers.
++ Champion
++ Competent
++ Developing
 
-2.  Select the domain you want to add the record to, or add a domain if you don't already have one listed.
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512722904436.png">![""](/images/my-image.jpg)
+</a>
+</span>
 
-3.  Under the **CAA Records** section, select **Add a new CAA record**.
+#### Quiz Notification Setting
+Notification setting can be changed. you can select by
 
-4.  Here's an explanation of the form fields:
++ To receive an Email notification. Checked the `check box` button
++ To receive In-App notification. Checked the `check box` button
++ To receive Email and In-App Notification. Checked the `Email Notification` Checkbox -> `In-App Notification` CheckBox -> Click on the `Save` button
 
-    **Subdomain**: This field indicates the domain or subdomain you want the CAA record to cover. To apply it to your entire website (`example.com`), you can just leave this field blank. To limit the record's application to a subdomain on your site, (`subdomain.example.com`), enter that into the form field.
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512722995183.png">![""](/images/my-image.jpg)
+</a>
+</span>
 
-    **Tag**:
+You can also change the setting for receiving the notification by
 
-     -  *issue* - Authorize the certificate authority entered in the *Value* field further below to issue TLS certificates for your site.
++ ** Send one day before the End Date **
++ ** Weekly notification **
++ ** Do not send reminders **
 
-     -  *issuewild* - Same as above, with the exception that you were issued a wildcard certificate.
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512723054646.png">![""](/images/my-image.jpg)
+</a>
+</span>
 
-     -  *iodef* - URL where your CA can report security policy violations to you concerning certificate issue requests.
+#### Multiple attempts Configuration
+Multiple attempts configuration is to allow users how many attempts to give the quiz. Reassign of the quiz will be done if the percentage is below 60%
 
-    **Value**: If the *issue* or *issuewild* tag was selected above, then the value field takes the domain of your certificate issuer (for example: `letsencrypt.org`). If the *iodef* tag was selected, the value field takes a contact or submission URL (`http` or `mailto`).
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512723161588.png">![""](/images/my-image.jpg)
+</a>
+</span>
 
-    **TTL (Time to Live)**: Time in seconds that your new CAA record will be cached by Linode's DNS name servers before being refreshed. The *Default* selection's TTL is 300 seconds, which is fine for most cases. You can use `dig` to view the remaining time your DNS records will be cached until refreshed. Replace *linode.com* with your site's domain or subdomain in the command below:
+#### Knowledge Category Setting
+If category needs to be added or update. Click on {{< show-link "Edit Tags" "Pop-up Window will appear" "Add Tag" "Save Category" >}}
 
-        root@debian:~# dig +nocmd +noall +answer example.com
-        example.com.     167 IN  A   203.0.113.1
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512723207050.png">![""](/images/my-image.jpg)
+</a>
+</span>
 
-5.  Select **Save Changes** when finished. The CAA record should be fully propagated within the TTL duration.
+#### Default Auto Mode
+
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512723273116.png">![""](/images/my-image.jpg)
+</a>
+</span>
+
+#### Quick Auto Mode
+
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512723331475.png">![""](/images/my-image.jpg)
+</a>
+</span>

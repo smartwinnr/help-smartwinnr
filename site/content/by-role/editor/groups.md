@@ -17,34 +17,59 @@ external_resources:
  - '[RFC 6844: DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844)'
 ---
 
-Certification Authority Authorization (CAA) is a type of DNS record that allows the owner of a domain to specify which certificate authority (or authorities) are allowed to issue SSL/TLS certificates for their domain(s). This quick answer shows you how to set up CAA records on your Linode.
 
+The Group feature helps you to assign a quiz, content or survey to multiple users at the same time. Consider creating a group when you have to send quizzes or content or surveys to the same group of people multiple times, for example, before a training session.
 
-## Groups
+## How to create groups?
+#### Create Groups
+If you have the `Editor` access, you will be able to create a Group and use it.
+You can create a Group from your `Profile page`.
 
-1.  This is an overview of almost every thing SmartWinnr offers.
+{{< show-link "Login" "Click on your name on the top right corner of the page" "Click on Profile button" "Select the My Groups tab" >}}
 
-2.  Select the domain you want to add the record to, or add a domain if you don't already have one listed.
+<span class="my-gallery">
+<a        href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512651000365.png">
+![My Image](/images/my-image.jpg)
+</a>
+</span>
 
-3.  Under the **CAA Records** section, select **Add a new CAA record**.
+Click on `Add New Group` button . Add a `name` and `description` to the new group and select whether you would like the Group to be `Public` or `Private`. A `Public` group will be visible to all and other Editors will also be able to reuse it, while a `Private` group will be visible only to you.
 
-4.  Here's an explanation of the form fields:
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512651114786.png">
+![My Image](/images/my-image.jpg)
+</a>
+</span>
 
-    **Subdomain**: This field indicates the domain or subdomain you want the CAA record to cover. To apply it to your entire website (`example.com`), you can just leave this field blank. To limit the record's application to a subdomain on your site, (`subdomain.example.com`), enter that into the form field.
+After making the selection, click on `Save and Add Members` button.
 
-    **Tag**:
+Now add members to this new group. You can select members through the Search/Advanced Search given in the selection screen. Once you have made the necessary selections, click on `Add Selected Members` button at the bottom of the screen.
 
-     -  *issue* - Authorize the certificate authority entered in the *Value* field further below to issue TLS certificates for your site.
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512651202081.png">
+![My Image](/images/my-image.jpg)
+</a>
+</span>
 
-     -  *issuewild* - Same as above, with the exception that you were issued a wildcard certificate.
+This will add the new Group. All of your **Groups** will be visible in the Settings page.
 
-     -  *iodef* - URL where your CA can report security policy violations to you concerning certificate issue requests.
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512651272715.png">
+![My Image](/images/my-image.jpg)
+</a>
+</span>
 
-    **Value**: If the *issue* or *issuewild* tag was selected above, then the value field takes the domain of your certificate issuer (for example: `letsencrypt.org`). If the *iodef* tag was selected, the value field takes a contact or submission URL (`http` or `mailto`).
+## Sending Quizzes, Surveys and Content using Groups
+You can send `Quizzes`, `Surveys`, and `Content` to a pre-defined set of people through Groups.
 
-    **TTL (Time to Live)**: Time in seconds that your new CAA record will be cached by Linode's DNS name servers before being refreshed. The *Default* selection's TTL is 300 seconds, which is fine for most cases. You can use `dig` to view the remaining time your DNS records will be cached until refreshed. Replace *linode.com* with your site's domain or subdomain in the command below:
+When you are selecting the people to whom you want to send the quiz to, select the Group. Follow the screenshot below.
 
-        root@debian:~# dig +nocmd +noall +answer example.com
-        example.com.     167 IN  A   203.0.113.1
+The `Add Group` link enables you to add a Group in case you don’t have the Group added from before. Once you select the Group, the list of people in the lower section of the page will reflect with the people who have been added to the Group. Next, select the people from the list and click on `Save` button. The quiz has now been sent to this group.
 
-5.  Select **Save Changes** when finished. The CAA record should be fully propagated within the TTL duration.
+<p class="Alert Alert--teal"> **Info** : The same process applies to ** Surveys ** and ** Contents ** too. </p>
+
+<span class="my-gallery">
+<a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512651406391.png">
+![My Image](/images/my-image.jpg)
+</a>
+</span>
