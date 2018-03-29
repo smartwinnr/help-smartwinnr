@@ -28,9 +28,9 @@ Points received per correct answers will be displayed. To change, type in the ch
 #### Quiz Badge Setting
 Quiz Badge changes depending on the threshold. Badges are three types:
 
-+ Champion
-+ Competent
-+ Developing
+1. Champion
+2. Competent
+3. Developing
 
 <span class="my-gallery">
 <a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512722904436.png">![""](/images/my-image.jpg)

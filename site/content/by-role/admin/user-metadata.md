@@ -21,21 +21,21 @@ external_resources:
 
 Meta tags depends upon Organization to organization.
 #### Edit
-Meta tags are editable. Click on {{< show-link "Edit" "Pop-up Window will appear" "Type in new name" "Save" >}}
+Meta tags are editable. Click on {{< show-link "Edit" "Pop-up Window will appear" "Enter new name" "Save" >}}
 
 <span class="my-gallery">
 <a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512724299785.png">![""](/images/my-image.jpg)
 </a>
 </span>
 #### Allowed values
-Allowed values to change value of Language, type. Click on {{< show-link "(+) icon" "Window will appear" "Type in details" "Save" >}}
+Allowed values to change value of Language, type. Click on {{< show-link "(+) icon" "Window will appear" "Enter details" "Save" >}}
 
 <span class="my-gallery">
 <a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512724385641.png">![""](/images/my-image.jpg)
 </a>
 </span>
 #### Add New
-New Meta tags can be added.Click on {{< show-link "Add New" "Pop-up Window will appear" "Type in language" "Save" >}}
+New Meta tags can be added.Click on {{< show-link "Add New" "Pop-up Window will appear" "Enter language" "Save" >}}
 
 <span class="my-gallery">
 <a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512724535487.png">![""](/images/my-image.jpg)

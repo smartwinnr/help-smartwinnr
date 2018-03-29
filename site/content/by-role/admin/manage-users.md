@@ -59,7 +59,7 @@ Click on {{< show-link "Business Unit All" "Dropdown will appear" >}}
 </a>
 </span>
 
-Manage users come with the search. Click on {{< show-link "Advanced Search" "Window will appear" "Type in the fields to search" "Search" >}}
+Manage users come with the search. Click on {{< show-link "Advanced Search" "Enter fields to search" "Search" >}}
 
 <span class="my-gallery">
 <a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512715543865.png">![""](/images/my-image.jpg)
@@ -90,7 +90,7 @@ Meta tag is the type which depends on the organization. It varies depending on t
 </span>
 
 #### Add User
-Add User is to add new user. Click on {{< show-link "Add user" "Form will appear" "Type in the details" "Create User" >}}
+Add User is to add new user. Click on {{< show-link "Add user" "Form will appear" "Enter details" "Create User" >}}
 
 <span class="my-gallery">
 <a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512715949068.png">![""](/images/my-image.jpg)
@@ -125,20 +125,23 @@ Click on {{< show-link "Add" "New field will appear" >}}
 
 {{< show-link "Organization units" "Delete" >}}
 
+
 <span class="my-gallery">
 <a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512716396991.png">![""](/images/my-image.jpg)
 </a>
 </span>
 
 #### Add Users in Bulk
-Add too many users at one time. Click on {{< show-link "Add Users in Bulk" "New window will appear" >}}
+Add too many users at one time.
+
+Click on {{< show-link "Add Users in Bulk" "New window will appear" >}}
 
 <span class="my-gallery">
 <a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512716554763.png">![""](/images/my-image.jpg)
 </a>
 </span>
 
-New window for add users in bulk. Click on {{< show-link "Add User Mapping" "Type the details" "Create" >}}
+New window for add users in bulk. Click on {{< show-link "Add User Mapping" "Enter details" "Create" >}}
 <span class="my-gallery">
 <a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512716703864.png">![""](/images/my-image.jpg)
 </a>

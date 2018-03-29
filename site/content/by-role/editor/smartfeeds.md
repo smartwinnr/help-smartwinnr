@@ -17,9 +17,7 @@ external_resources:
  - '[RFC 6844: DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844)'
 ---
 
-# Smartfeeds
-## How to create a Smartfeed?
-### Create Smartfeed
+## Create Smartfeed
 Create Smartfeed is to create article related to product or country. Go to `Create New Smartfeed`
 
 <span class="my-gallery">
@@ -28,7 +26,7 @@ Create Smartfeed is to create article related to product or country. Go to `Crea
 </a>
 </span>
 
-##### Select Division
+#### Select Division
 Select division is the type for which the document should be made. Click on Select `Division`
 
 <span class="my-gallery">
@@ -37,7 +35,7 @@ Select division is the type for which the document should be made. Click on Sele
 </a>
 </span>
 
-##### Change Language
+#### Change Language
 Change Language is to change the language for the smartfeed.
 
 Click on {{< show-link "Change Language" "Pop-up Window" "Select Language" "Save" >}}
@@ -90,7 +88,6 @@ Select on `Selling Skills`
 </span>
 
 ## How to view all Smartfeeds?
-### Smartfeed
 Smartfeed is information about product. Analysis of the product done and the information is sent to the users.
 
 #### View all Smartfeeds
@@ -123,7 +120,7 @@ Click on Select `Tags`
 </a>
 </span>
 
-##### Search
+#### Search
 Smartfeed comes with search. Click on {{< show-link "Search" "Type in Smartfeed title" "Search" >}}
 
 <span class="my-gallery">
@@ -136,7 +133,7 @@ Click -> **PDF** button
 
 Information can be sent in pdf format. Click on `PDF` button -> `Pop-up` window -> Click on `Send` button
 
-##### Edit
+#### Edit
 Smartfeed is editable.
 
 Click on {{< show-link "PDF button" "Pop-up window" "Edit" "Send" >}}  
@@ -146,7 +143,7 @@ Click on {{< show-link "PDF button" "Pop-up window" "Edit" "Send" >}}
 ![""](/images/my-image.jpg)
 </a>
 </span>
-##### Select categories
+#### Select categories
 Select categories can be done by selecting `Knowledge`, `Product` and `selling Skill`.
 
 {{< show-link "Knowledge" "Product" "Selling skills" "Update" >}}
@@ -186,7 +183,7 @@ Sales related data  about the product related to particular `company` or `indust
 </span>
 
 ## What is Smartfeed Analytics?
-### Smartfeed Analytics
+
 Smartfeed Analytics is smartfeed viewed by number of users. To change the number of views.
 
 Click on {{< show-link "Dropdown" "Select from the list" >}}

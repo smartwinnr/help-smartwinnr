@@ -28,7 +28,7 @@ Permission sets come with the search. Click on {{< show-link "Search" "Type in P
 </a>
 </span>
 
-### Add Permission Set
+#### Add Permission Set
 To add permission set. Click on {{< show-link "Add permission Set" "Type in the details" "Role" "Divisions" "Sub Divisions" "Save" >}}
 
 <span class="my-gallery">

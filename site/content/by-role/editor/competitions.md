@@ -77,7 +77,7 @@ There can be multiple leaderboards in a Competition.
 
 The editor who has created the competition can edit and make changes to the competition. If you want to give permission to someone else within your division to make changes to the competition, you can do so.
 
-Go to {{< show-link "List Competitions" "Select the Competition" "Click on the Edit button in the top right corner of the page" "Click on the Can Be Edited By button" >}}
+Go to {{< show-link "List Competitions" "Select Competition" "Edit" "Can Be Edited " >}}
 
 Search and select the person to whom you want to give the access to edit this competition. Click on `Save` button.
 

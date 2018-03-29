@@ -41,7 +41,7 @@ Quizzes comes with division. Click on {{< show-link "Divisions" "Select from dro
 </span>
 
 #### Search
-Quizzes comes with `search`. Click on {{< show-link "Search bar" "Type in quiz title" "Click on search button" >}}
+Quizzes comes with `search`. Click on {{< show-link "Search bar" "Type in quiz title" "Search" >}}
 
 <span class="my-gallery">
 <a href="https://s3-us-west-2.amazonaws.com/qzapp.resource/5774b038e11b0d0822c0ec0c/question_image5774b038e11b0d0822c0ec0c_1516085107062.png">
@@ -87,11 +87,11 @@ Once you have completed the steps in create quiz and `AddQuestion` , you can now
 ## Quiz Types
 There are different types of quizzes that can be created within Smartwinnr. You can use this simple list to decide on which quiz type will suit your case.
 
-| **No** | **Requirement**  | **Smartwinnr Quiz Type** | **How to create?**|
-| -- | ------------ | -----------------------| ---------------|
-| 1. | Pre-training assessment that will happen one-time  | Manual Quiz | Quizzes -> Create New Quiz -> Quiz Type = `Manual` |
-| 2. | A quiz (`with same questions`) that can be taken multiple times before a minimum score is achieved. All quiz takers get  the same questions in same order | Manual Quiz with Multiple Attempts | Quizzes -> Create New Quiz -> Quiz Type = `Manual` and `Allow multiple attempts for this quiz?` |
-| 3. | A quiz with timer | Manual Quiz with Timer | Quizzes -> Create New Quiz -> Quiz Type = `Manual` and `Do you want timer to be enabled for this quiz?` checked |
+| **No** | **Requirement**  | **Smartwinnr Quiz Type** | **How to create?** |
+| ------ | ---------------- | ------------------------ | ------------------ |
+| 1.     | Pre-training assessment that will happen one-time  | Manual Quiz | Quizzes -> Create New Quiz -> Quiz Type = `Manual` |
+| 2.     | A quiz (`with same questions`) that can be taken multiple times before a minimum score is achieved. All quiz takers get  the same questions in same order | Manual Quiz with Multiple Attempts | Quizzes -> Create New Quiz -> Quiz Type = `Manual` and `Allow multiple attempts for this quiz?` |
+| 3.     | A quiz with timer | Manual Quiz with Timer | Quizzes -> Create New Quiz -> Quiz Type = `Manual` and `Do you want timer to be enabled for this quiz?` checked |
 
 ## Quiz Time Zone
 Quiz time zone takes the browser time zone. If Quiz is created for different time zone then
@@ -113,10 +113,10 @@ Quiz time zone takes the browser time zone. If Quiz is created for different tim
 </span>
 
 ## How to create an automatic quiz ?
-#### Create Automatic Quiz
+
 A Quiz is a group of questions that can be sent to reps for them to answer. A quiz can have a title, description, a start date and an end date.
 
-Click on {{< show-link "Quiz Type" "Select Automatic" "Click Division" "Select Division" "Click on Auto Mode Type" "Select Default Auto Mode" >}}
+Click on {{< show-link "Quiz Type" "Select Automatic" "Division" "Select Division" "Auto Mode Type" "Default Auto Mode" >}}
 
 <span class="my-gallery">
 <a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512638316292.png">
@@ -141,31 +141,31 @@ Default auto mode setting is to set the quiz to be sent in what interval of time
 
 + How to set an interval for delivering quiz?
 
- Click on {{< show-link "Default Auto Mode" "Type in the number of days in  Frequency of Quiz Deliver in days" >}}
+ Click on {{< show-link "Default Auto Mode" "Enter no. of days in Frequency of Quiz Deliver in days" >}}
 
 + How to set the number of quiz per set?
 
-Click on {{< show-link "Default Auto Mode" "Type in the number of question per quiz" >}}
+Click on {{< show-link "Default Auto Mode" "Enter number of question per quiz" >}}
 
 + How to stop repeated question which has been marked correct by the user?
 
-Click on {{< show-link "Default Auto Mode" "Type in the number of correct responses for question to stop it from being repeated" >}}
+Click on {{< show-link "Default Auto Mode" "Enter number of correct responses for question to stop it from being repeated" >}}
 
 + what will the percentage of questions assigned from unanswered questions?
 
-Click on {{< show-link "Default Auto Mode" "Type in the value" "Default value is 40%" >}}
+Click on {{< show-link "Default Auto Mode" "Enter value" "Default value is 40%" >}}
 
 + What will be the ﻿percentage of questions assigned from incorrectly answered questions?
 
-Click on {{< show-link "Default Auto Mode" "Type in the value" "Default value is 30%" >}}
+Click on {{< show-link "Default Auto Mode" "Enter value" "Default value is 30%" >}}
 
 + What will be the percentage of questions assigned from questions that have been correctly answered at least once?
 
-Click on {{< show-link "Default Auto Mode" "Type in the value" "Default value is 20%" >}}
+Click on {{< show-link "Default Auto Mode" "Enter value" "Default value is 20%" >}}
 
 + What will be the percentage of questions assigned from questions that have been correctly answered all the time?
 
-Click on {{< show-link "Default Auto Mode" "Type in the value" "Default value is 10%" >}}
+Click on {{< show-link "Default Auto Mode" "Enter value" "Default value is 10%" >}}
 
 <span class="my-gallery">
 <a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512638578959.png">
@@ -179,31 +179,31 @@ Quick auto mode setting is to set the quiz to be sent in what interval of time, 
 
 + How to set an interval for delivering quiz?
 
-Click on {{< show-link "Quick Auto Mode" "Type in no of days in Frequency of Quiz Deliver in days" >}}
+Click on {{< show-link "Quick Auto Mode" "Enter no of days in Frequency of Quiz Deliver in days" >}}
 
 + How to set the number of quiz per set?
 
-Click on {{< show-link "Quick Auto Mode" "Type in the number of question per quiz" >}}
+Click on {{< show-link "Quick Auto Mode" "Enter number of question per quiz" >}}
 
 + How to stop repeated question which has been marked correct by the user?
 
-Click on {{< show-link "Quick Auto Mode" "Type in the number of correct responses for question to stop it from being repeated" >}}
+Click on {{< show-link "Quick Auto Mode" "Enter number of correct responses for question to stop it from being repeated" >}}
 
 + what will the percentage of questions assigned from unanswered questions?
 
-Click on {{< show-link "Quick Auto Mode" "Type in the value" "Default value is 70%" >}}
+Click on {{< show-link "Quick Auto Mode" "Enter value" "Default value is 70%" >}}
 
 + What will be the ﻿percentage of questions assigned from incorrectly answered questions?
 
-Click on {{< show-link "Quick Auto Mode" "Type in the value" "Default value is 30%" >}}
+Click on {{< show-link "Quick Auto Mode" "Enter value" "Default value is 30%" >}}
 
 + What will be the percentage of questions assigned from questions that have been correctly answered at least once?
 
-Click on {{< show-link "Quick Auto Mode" "Type in the value" >}}
+Click on {{< show-link "Quick Auto Mode" "Enter value" >}}
 
 + What will be the percentage of questions assigned from questions that have been correctly answered all the time?
 
-Click on {{< show-link "Quick Auto Mode" "Type in the value" >}}
+Click on {{< show-link "Quick Auto Mode" "Enter value" >}}
 
 <span class="my-gallery">
 <a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512638635831.png">
@@ -214,7 +214,7 @@ Click on {{< show-link "Quick Auto Mode" "Type in the value" >}}
 ## How to create a duplicate quiz?
 Duplicate Quiz is to create same quiz.
 
-1 Go to {{< show-link "View all Quizzes" "Click on Quiz" "New Window will appear" "click on Duplicate button" "Click Yes button on Pop-up Window" "New Window Comes" "Click on Save Changes button" >}}
+1 Go to {{< show-link "View all Quizzes" "Quiz" "New Window appears" "Duplicate" "Yes" "New Window Comes" "Save Changes" >}}
 
 <span class="my-gallery">
 <a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512639649903.png">
@@ -238,7 +238,7 @@ b. Click `yes` button on pop up window
 </a>
 </span>
 
-c. {{< show-link "New Window" "Click on Save Changes button" >}}
+c. {{< show-link "New Window" "Save Changes" >}}
 
 <span class="my-gallery">
 <a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512639951229.png">
@@ -248,7 +248,8 @@ c. {{< show-link "New Window" "Click on Save Changes button" >}}
 
 #### Quiz Competition
 After creating duplicate quiz. Add the quiz to competition.
-Click on {{< show-link "Add button" "Click on competition on pop-up window" "Click on save button" >}}
+
+Click on {{< show-link "Add button" "Click on Competition on pop-up window" "Save" >}}
 
 ## How do I give access to my quizzes to other users?
 Sometimes you might want to provide access to quizzes created by you to other team members. You can do that easily using the following steps:
@@ -283,7 +284,7 @@ Sometimes you might want to provide access to quizzes created by you to other te
 
 To make any changes on a quiz.
 
-1 Go to {{< show-link "View All Quizzes" "Click on Quiz" "New Window will appear" "click on Edit button" "click Yes button on Pop-up Window" "New Window Comes" "Click on Save Changes button" >}}
+1 Go to {{< show-link "View All Quizzes" "Quiz" "New Window appears" "Edit" "Yes" "New Window Comes" "Save Changes" >}}
 
 <span class="my-gallery">
 <a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1513686339690.png">
@@ -304,7 +305,7 @@ Extend End date is to extend the last date of the quiz. Extension is possible on
 
 <p class="Alert Alert--red"> Warning: Some users have already taken the quiz. Only end date, competition image can be changed </p>
 
-Go to {{< show-link "View All Quizzes" "Click on Quiz" "Click on Edit button" "Click on End date Calender icon" "Select the Date" "Click on the Save Changes button" >}}
+Go to {{< show-link "View All Quizzes" "Quiz" "Edit" "End date" "Select the Date" "Save Changes" >}}
 
 <span class="my-gallery"><a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512640787974.png">
 ![My Image](/images/my-image.jpg)
@@ -344,7 +345,7 @@ View All Quiz comes with Search Option
 #### Add New Quiz
 New Quiz to be added.
 
-Click on {{< show-link "Add New Quiz button" "New Window" "Select Division" "Select Quiz Type" "Type in the details" "Check-in any details if timer or multiple attempts need to be enabled" "Click on Save and Add Question button" >}}
+Click on {{< show-link "Add New Quiz" "New Window" "Select Division" "Select Quiz Type" "Enter details" "Save and Add Question" >}}
 
 <span class="my-gallery">
 <a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512641255640.png">
@@ -365,7 +366,7 @@ Select tab {{< show-link "Other Quizzes" "New Window" >}}
 #### Date Range
 View all quizzes comes with date range.To filter based on date.
 
-Click on {{< show-link "Date Range" "Select from Dropdown list" "Click on Apply button" >}}
+Click on {{< show-link "Date Range" "Select from Dropdown list" "Apply" >}}
 
 <span class="my-gallery">
 <a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1513426984121.png">
@@ -376,7 +377,7 @@ Click on {{< show-link "Date Range" "Select from Dropdown list" "Click on Apply 
 ## What is Quiz Analytics?
 Smartwinnr provides a very detailed set of analytics on every quiz that you have created and assigned to people.
 
-Go to {{< show-link "View all Quizzes" "Click on Quiz" "Quiz details page will open" "Click on Analytics button" >}}
+Go to {{< show-link "View all Quizzes" "Quiz" "Quiz details page will open" "Analytics" >}}
 
 <span class="my-gallery">
 <a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1513686534165.png">

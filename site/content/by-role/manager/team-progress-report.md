@@ -25,7 +25,7 @@ Team Progress Report shows the whole team `Completion Rate`, `Total Score`,	`Per
 </span>
 
 ## Search
-Team Progress Report comes with search. Click on {{< show-link "Search" "Type in Name Or Email Or Country" >}}
+Team Progress Report comes with search. Click on {{< show-link "Search" "Enter Name Or Email Or Country" >}}
 
 <span class="my-gallery">
 ![My Image](/images/my-gallery.jpg)

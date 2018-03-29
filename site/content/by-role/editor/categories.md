@@ -20,10 +20,10 @@ external_resources:
 ## What are categories?
 Categories are the types on basis of which related fields are displayed. Categories are
 
-+ Sales
-+ Transport
-+ Agriculture
-+ Finance
+1. Sales
+2. Transport
+3. Agriculture
+4. Finance
 
 <span class="my-gallery">
 <a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512712098681.png">

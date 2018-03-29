@@ -21,11 +21,11 @@ external_resources:
 The Group feature helps you to assign a quiz, content or survey to multiple users at the same time. Consider creating a group when you have to send quizzes or content or surveys to the same group of people multiple times, for example, before a training session.
 
 ## How to create groups?
-#### Create Groups
 If you have the `Editor` access, you will be able to create a Group and use it.
 You can create a Group from your `Profile page`.
 
-{{< show-link "Login" "Click on your name on the top right corner of the page" "Click on Profile button" "Select the My Groups tab" >}}
+{{< show-link "Login" "Click on your name on top right corner" "Click on Profile button" "Select My Groups tab" >}}
+
 
 <span class="my-gallery">
 <a        href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512651000365.png">
@@ -66,7 +66,7 @@ When you are selecting the people to whom you want to send the quiz to, select t
 
 The `Add Group` link enables you to add a Group in case you don’t have the Group added from before. Once you select the Group, the list of people in the lower section of the page will reflect with the people who have been added to the Group. Next, select the people from the list and click on `Save` button. The quiz has now been sent to this group.
 
-<p class="Alert Alert--teal"> **Info** : The same process applies to ** Surveys ** and ** Contents ** too. </p>
+**Info** : The same process applies to **Surveys** and **Contents** too. </p>
 
 <span class="my-gallery">
 <a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1512651406391.png">

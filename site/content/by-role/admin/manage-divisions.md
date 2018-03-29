@@ -44,8 +44,7 @@ Add new Business Unit. Click on {{< show-link "Add More Business Unit" "Pop up w
 ![""](/images/my-image.jpg)
 </a>
 </span>
-#### Country
-##### Search
+## Country
 Country  comes with search. Click on {{< show-link "Search" "Type in Country name" >}}
 
 <span class="my-gallery">

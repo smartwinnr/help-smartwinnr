@@ -85,7 +85,7 @@ If you want to see further details, by different territories, click on the `View
 
 ## Performance by Question
 
-**Performance in a Quiz can be further broken down by a question. These analytics helps quiz masters and editors to understand how people are performing in each question. The percentage (%) is a measure of ** how many percentage (%) of people have got this question correct?**.
+Performance in a Quiz can be further broken down by a question. These analytics helps quiz masters and editors to understand how people are performing in each question. The percentage (%) is a measure of **how many percentage (%) of people have got this question correct?**.
 
 <span class="my-gallery">
 <a href="/image/my-image.jpg">
@@ -105,7 +105,7 @@ To download `quiz analytics`. Click on `Save As Image` button
 ## Date Range
 Quiz Analytics comes with date range.To filter based on date.
 
-Click on `Date Range` -> Select from `Dropdown` list -> Click on `Apply` button
+Click on {{< show-link "Date Range" "Select from Dropdown" "Apply" >}}
 
 <span class="my-gallery">
 <a href="/image/my-image.jpg">
@@ -152,7 +152,7 @@ To download team analytics. Click on `Save As Image` button
 ## Date Range
 Team Analytics comes with date range.To filter based on date.
 
-Click on `Date Range` -> Select from `Dropdown` list -> Click on `Apply` button
+Click on {{< show-link "Date Range" "Select from Dropdown" "Apply" >}}
 
 <span class="my-gallery">
 <a href="/image/my-image.jpg">
@@ -162,7 +162,8 @@ Click on `Date Range` -> Select from `Dropdown` list -> Click on `Apply` button
 
 ## Smartfeed Analytics
 Smartfeed Analytics is smartfeed viewed by number of users. To change the number of views
-Click on `dropdown` button -> Select from the list
+
+Click on {{< show-link "Dropdown" "Select from the list" >}}
 
 <span class="my-gallery">
 <a href="/image/my-image.jpg">
@@ -171,7 +172,7 @@ Click on `dropdown` button -> Select from the list
 </span>
 
 ## Search
-Type in the `Smartfeed name` -> click on `Search` button
+Type in the {{< show-link "Smartfeed name" "Search" >}}
 
 <span class="my-gallery">
 <a href="/image/my-image.jpg">
@@ -191,7 +192,7 @@ To download the smartfeed. Click on `Save As Image` button
 ## Date Range
 Quiz Analytics comes with date range.To filter based on date.
 
-Click on `Date Range` -> Select from `Dropdown` list -> Click on `Apply` button
+Click on {{< show-link "Date Range" "Select from Dropdown" "Apply" >}}
 
 <span class="my-gallery">
 <a href="/image/my-image.jpg">

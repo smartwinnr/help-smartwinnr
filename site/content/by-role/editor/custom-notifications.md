@@ -43,7 +43,7 @@ Click on {{< show-link "Created By" "Dropdown List will appear" "Select from the
 #### Search
 Custom Notification comes with search.
 
-Click on {{< show-link "Search bar" "Type in Business Unit" "Click on Search button" >}}
+Click on {{< show-link "Search bar" "Enter Business Unit" "Search" >}}
 
 <span class="my-gallery">
 <a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1513415733310.png">
@@ -52,7 +52,7 @@ Click on {{< show-link "Search bar" "Type in Business Unit" "Click on Search but
 </span>
 
 ## How to create custom notification?
-Click on {{< show-link "Add Notification button" "New Window will appear" "Type in the message" "Select users" "Click on Send Notification button" >}}
+Click on {{< show-link "Add Notification" "New Window will appear" "Enter the message" "Select users" "Send Notification" >}}
 
 <span class="my-gallery">
 <a href="https://s3-eu-west-1.amazonaws.com/smartwinnr.app.resource/57d512c664fcef1d30065b0a/question_image57d512c664fcef1d30065b0a_1513415789505.png">
