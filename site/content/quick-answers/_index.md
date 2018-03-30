@@ -9,6 +9,6 @@ published: 2017-04-14
 title: Quick Answers
 show_on_frontpage: true
 title_short: "Quick Answers"
-weight: 20
+weight: 30
 icon: "bolt"
 ---

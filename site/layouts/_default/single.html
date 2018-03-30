@@ -10,7 +10,7 @@
           </div>
         </div>
         <div class="row">
-          <div id="article-body" class="col-sm-9 col-sm-push-3 doc">
+          <div id="ml-article-body" class="col-sm-9 col-sm-push-3 doc">
             {{ partial "article_header" . }}
            <div class="row">
             {{ if ne .Params.promo false }}
@@ -22,8 +22,8 @@
             {{ partial "operating_systems" . }}
             {{ partial "deprecated" . }}
             {{ .Content }}
-            {{ partial "more" . }}
-            {{ partial "related" . }}
+            {{/* partial "more" . */}}
+            {{/* partial "related" . */}}
             {{ if and (getenv "HUGO_ENV") (ne .Params.comments false) }}
             {{ partial "disqus" . }}
             {{ end }}
