@@ -19,12 +19,12 @@
         {{ end }}
       </div>
     </div>
-</section>
 </div>
+</section>
 {{ end }}
 {{ $sections :=  where .Sections ".Params.show_in_lists" "==" true  }}
 {{ with $sections }}
-<div class="container">
+<div class="ml-container ml-background-shade">
   <div class="ml-section-tree">
       {{ range $i, . }}
       {{ $pages := where .Pages ".Params.deprecated" "!=" true }}
